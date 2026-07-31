@@ -1,8 +1,24 @@
 aid: ncx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ncx.png
 name: NCX
-description: NCX is a company surfaced as a portfolio company of union-square-ventures, version-one-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: NCX (Natural Capital Exchange), originally founded as SilviaTerra, is a forestry
+  technology company that maps and measures every acre of U.S. forestland using satellite
+  imagery and machine learning. NCX built the Natural Capital Exchange, a marketplace that
+  paid landowners to defer timber harvests and generate forest carbon credits, and it now
+  offers LandBook, a tool that helps landowners capture the story, plans, and practical
+  knowledge behind their property so it can be passed on to the next steward. The company
+  is backed by Union Square Ventures and Version One Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/ncx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,15 +29,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Forestry
+- Carbon
+- Land
+- Sustainability
+- Climate
+- Natural Capital
+- Geospatial
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ncx-domain-security.yml
 - type: Website
-  url: https://www.silviaterra.com
+  url: https://ncx.com
+- type: Blog
+  url: https://ncx.com/blog/
+- type: BlogRSS
+  url: https://ncx.com/blog/rss.xml
+- type: Support
+  url: https://ncx.com/contact
+- type: PrivacyPolicy
+  url: https://ncx.com/privacy/
+- type: TermsOfService
+  url: https://ncx.com/terms/
+- type: About
+  url: https://ncx.com/about/
